@@ -1,17 +1,36 @@
-# Virtual Environment
+# Virtual environments
 .venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
 
 # Python cache
 __pycache__/
 *.pyc
-
-# PyCharm
-.idea/
+*.pyo
 
 # Pytest
 .pytest_cache/
-*.html
+htmlcov/
 
-# OS
+# Robot Framework reports
+log.html
+report.html
+output.xml
+
+# Logs
+*.log
+
+# Screenshots
+selenium-screenshot-*.png
+
+# Coverage
+.coverage
+coverage.xml
+
+# OS files
 .DS_Store
 Thumbs.db
