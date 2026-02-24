@@ -9,5 +9,5 @@ Test Teardown    Close Application
 *** Test Cases ***
 
 TC_02 Invalid Login
-    Login With Credentials    ${VALID_USERNAME}    ${INVALID_PASSWORD}
+    Login With Credentials    ${valid_username}    ${invalid_pass}
     Verify Login Error Message
