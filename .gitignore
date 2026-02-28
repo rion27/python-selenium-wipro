@@ -26,6 +26,8 @@ output.xml
 
 # Screenshots
 selenium-screenshot-*.png
+screenshots/
+*/screenshots/
 
 # Coverage
 .coverage
@@ -34,3 +36,12 @@ coverage.xml
 # OS files
 .DS_Store
 Thumbs.db
+
+# Robot output
+output.xml
+log.html
+report.html
+
+# Reports
+reports/
+*/reports/
